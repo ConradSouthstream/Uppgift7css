@@ -1,31 +1,35 @@
 
-p{
-    
+p{    
     color: khaki;
 }
 ul li{
     color: rgb(211, 127, 58);
-    size: 10px;
+    font-size: 25px;
     display: inline-block;
-}
-h1{    
-    color:khaki;   
-}
-h3{   
-    padding: 5px;
-    border-color: green;
-    color: khaki;
-    background-color: rgb(114, 78, 24);
-    border: 2px solid chocolate;
-    border-radius: 20px;
-    padding: 1px;
-    
+    padding: 0 10px 0 10px;
 }
 div{
     background-color: rgba(33, 190, 143, 0.514);
     border-radius: 20px;
     border: 3px solid tomato;
+    width: 600px;    
 }
+h1{    
+    color:khaki;   
+}
+h3{   
+    
+    
+    color: khaki;
+    background-color: rgb(114, 78, 24);
+    border: 2px solid chocolate;
+    border-radius: 20px;
+    padding: 1px auto 1px auto;
+    margin: 4px auto 4px auto;
+    width: 600px;
+    
+}
+
 h4{
     
     color: khaki;
@@ -53,14 +57,19 @@ iframe{
 .feet{
     background-color: transparent;    
     border: 0px solid transparent;
-    outline: transparent;
-    padding: 5px;
-    padding: 12px;
+    
+    padding: 12px;    
 }
 footer{
     background-color: rgb(185, 105, 13);
     border-radius: 20px;
-    margin: 0px 40px 0px 40px ;
+    margin: 0px auto 0px auto ;
     font-size: 19px;
+    height: 50px;
+    width: 600px;
+}
+.center{
+    display: block;    
+    margin: 5px auto 5px auto;
 }
         
